@@ -1,0 +1,148 @@
+/* CSS Document */
+
+/* Colour legend */
+
+/* Reset */
+
+html, body 					{	padding:0px; margin:0px;}
+/* Global */
+
+body 						{	background-image:url(../images/old_map.png)/*background-color:#fff996500*/; border-top: 10px #996500 solid;}
+
+@font-face {
+    font-family: 'americanuncdregular';
+    src: url('../Fonts/ameruncn-webfont.eot');
+    src: url('../Fonts/ameruncn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/ameruncn-webfont.woff') format('woff'),
+         url('../Fonts/ameruncn-webfont.ttf') format('truetype'),
+         url('../Fonts/ameruncn-webfont.svg#americanuncdregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Headings */
+
+h1, h2, h3, h4, h5, h6		{	font-weight:bold;}
+h1							{	font-size:28px; color:#996500; padding-bottom:5px; padding-top:10px;
+								margin-bottom:15px;}
+h2							{	}
+
+h3							{	color:#996500; padding-bottom:5px; padding-top:0px;
+								margin-bottom:15px; font-family:Calibri}
+h4							{}
+h5							{}
+h6							{}
+
+/* Texts elements */
+a							{}
+a:link						{	color:#00f;}
+a:visited					{	color:#f00;}
+a:active					{	color:#000}
+a:focus						{	color:#666;}
+a:hover						{	color:#F00;}
+
+h1							{	/*font-family:"Courier New", Courier, monospace*/font-family:Calibri}
+p, td						{	/*font-family:"Courier New", Courier, monospace*/font-family:Calibri; text-align: left; color:#5A311B; font-size:16px	}
+
+/* Images */
+.image-frame				{	padding:0px; border:0px #ccc solid; margin:0px;}
+.serviceimage-frame			{	width:400px;}
+#servicesimage				{	width:460px; float:left; margin-bottom:30px;}
+
+/* Lists */
+
+#box1						{	width:130px; float:left; border: 1px #996500 solid; border-right:0px}
+#box2						{	width:130px; float:left; border: 1px #996500 solid;}
+#box3						{	width:130px; float:left; border: 1px #996500 solid; border-left:0px; border-right:0px}
+#box4						{	width:130px; float:left; border: 1px #996500 solid;}
+#box5						{	width:130px; float:left; border: 1px #996500 solid; border-left:0px;}
+#box6						{	width:130px; float:left; border: 1px #996500 solid; border-left:0px; border-right:0px;}
+#box7						{	width:140px; float:left; border: 1px #996500 solid;}
+
+/* Tables*/
+
+
+
+/* Containers */
+
+#outer 						{	width:960px; margin:0 auto;	/*background-color:#FFF;*/} 
+
+#wrapper					{	width:960px; margin:0 auto;	/*background-color:#FFF;*/}
+
+#leftnav					{	float:left; margin-top:70px; margin-left:10px;}
+#leftnav ul					{	margin:0px 0px; padding:0px 0px;	}
+#leftnav ul li				{	display:inline; padding:0px 20px; font-size:18px; font-family:Calibri; 	font-weight:bold; font-weight:bold; text-decoration:none; color:#996500}
+
+#leftnav a					{	/*font-family:"Courier New", Courier, monospace;*/ font-family:Calibri; 	font-weight:bold; font-weight:bold; text-decoration:none;}
+#leftnav a:link				{	color:#996500;}
+#leftnav a:visited			{	color:#996500;}
+#leftnav a:active			{	color:#000}
+#leftnav a:focus			{	color:#666;}
+#leftnav a:hover			{	color:#f90;}
+
+#logo						{	float:left; margin-left:0px; /*margin-right:auto*/; margin-top:20px; margin-bottom:15px;}
+
+#rightnav					{	float:right; margin-top:70px; margin-left:30px; border:0px #5A311B solid; border-right:none;}
+#rightnav ul				{	margin:0px 0px; padding:0px 0px;}
+#rightnav ul li				{	display:inline}
+#rightnav ul li a			{	padding:0 20px; font-size:18px;}
+
+#rightnav a					{	/*font-family:"Courier New", Courier, monospace;*/ font-family:Calibri;
+								font-weight:bold; text-decoration:none; padding-top:10px}
+#here						{	color:#FFF}
+						
+#rightnav a:link			{	color:#996500;}
+#rightnav a:visited			{	color:#996500;}
+#rightnav a:active			{	color:#000;}
+#rightnav a:focus			{	color:#666;}
+#rightnav a:hover			{	color:#f90;}
+
+#socialMediaIcons			{	float:right;}
+#socialMediaIcons ul		{	margin-top:100px;}
+#socialMediaIcons ul li		{	display:inline;  padding-left:0px;}
+
+#clients					{	float:left}
+#clients ul					{	margin-top:0px;}
+#clients ul li				{	display:inline; padding-right:10px}
+
+#line_top					{	margin-bottom:30px; clear:both;}
+#line_bottom				{	margin-top:20px; margin-bottom:20px; clear:both}
+
+#leftimage					{	width:960px; float:left; margin-bottom:30px; clear:both;}
+#form						{	width:400px; float:left; margin-bottom:15px; padding-left:10px;}
+
+#contact_heading			{	/*font-family:"Courier New", Courier, monospace; */font-size:18px; font-style:normal; color:#996500; font-family:Calibri;}
+
+#content_right				{	width:370px; float:left; padding-left: auto; padding-right: auto; padding-top:40px; margin-top:50px; margin-left:100px}
+
+#content_right p			{ 	font-size:16px; text-align:left; color:#5A311B; text-align:center}
+#list						{	display: block; margin-left: auto; margin-right: auto; height:100px}
+#list ul li					{	font-family:Calibri; text-align: auto; color:#5A311B; font-size:14px; text-indent:-20px; list-style:none}
+
+#heading					{	font-weight:bold; padding-left:10px}
+
+#content_left				{	width:430px; float:left;}
+#content_fullWidth			{	width:880px; padding-left:50px}
+
+#middle_text				{	margin-top:640px; margin-bottom:20px}
+
+#left_box					{	width:250px; float:left; border:0px #996500 solid; margin-right:93px;}
+#middle_box					{	width:250px; float:left; border:0px #996500 solid; margin-right:93px;}
+#right_box					{	width:250px; float:left; border:0px #996500 solid}
+
+#middle_box ul li			{	font-family:Calibri; text-align: left; color:#5A311B; font-size:14px}
+
+.leftbox_image				{	display: block; margin-left: auto; margin-right: auto;}
+.midbox_image				{	display: block; margin-left: auto; margin-right: auto;}
+.rightbox_image				{	display: block; margin-left: auto; margin-right: auto;}
+
+#footer						{	padding-bottom:20px;}
+
+/* Miscellaneous */
+.footer-text				{	font-size:70%; font-style:normal; color:#666; text-align:center;}
+
+/* Extra layout */
+
+/* Extra Navigation */
+
+/* Forms */
